@@ -14,46 +14,43 @@ struct OnboardingView: View {
         ZStack {
             Color.fitBackground.ignoresSafeArea()
 
-            VStack(spacing: 32) {
+            VStack(spacing: 48) {
                 Spacer()
 
-                // FitFlow Logo
-                Image("FitFlowLogo")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 140, height: 140)
-                    .shadow(radius: 8)
+                // Logo with subtle drop shadow
+                VStack(spacing: 16) {
+                    Image("FitFlowLogo") // make sure this name matches your Assets
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 150, height: 150)
+                        .shadow(color: Color.black.opacity(0.08), radius: 20, x: 0, y: 10)
 
-                Text("Welcome to Kora")
-                    .font(.system(size: 32, weight: .bold))
-                    .foregroundColor(.fitGreen)
-                    .multilineTextAlignment(.center)
-                    .padding(.horizontal, 20)
-
-                Text("Your fitness journey starts here.")
-                    .font(.system(size: 18, weight: .medium))
-                    .foregroundColor(.fitGray)
-                    .multilineTextAlignment(.center)
-                    .padding(.horizontal, 24)
+                    Text("Kora")
+                        .font(.system(size: 42, weight: .heavy))
+                        .foregroundColor(.fitGreen)
+                        .shadow(color: Color.black.opacity(0.05), radius: 10, x: 0, y: 4)
+                }
 
                 Spacer()
 
+                // "Get Started" button with blurred shadow halo
                 Button(action: {
                     hasCompletedOnboarding = true
                 }) {
                     Text("Get Started")
-                        .font(.headline)
+                        .font(.system(size: 20, weight: .semibold))
                         .foregroundColor(.white)
-                        .frame(maxWidth: .infinity)
-                        .padding()
+                        .padding(.vertical, 18)
+                        .padding(.horizontal, 90)
                         .background(Color.fitGreen)
-                        .cornerRadius(12)
-                        .shadow(radius: 4)
-                        .padding(.horizontal, 40)
+                        .cornerRadius(25)
+                        .shadow(color: Color.black.opacity(0.12), radius: 30, x: 0, y: 15)
+                        .shadow(color: Color.black.opacity(0.04), radius: 60, x: 0, y: 30)
                 }
 
                 Spacer()
             }
+            .padding(.vertical, 60)
         }
     }
 }
