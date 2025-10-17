@@ -9,10 +9,19 @@ import SwiftUI
 
 struct DashboardView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+        NavigationStack {
+            VStack(spacing: 20) {
+                Text("🏋️‍♂️ Dashboard")
+                    .font(.title)
+                    .foregroundColor(.fitGreen)
 
-#Preview {
-    DashboardView()
+                NavigationLink("Go to Profile") {
+                    ProfileView()
+                }
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color.fitBackground)
+            .navigationTitle("FitFlow")
+        }
+    }
 }

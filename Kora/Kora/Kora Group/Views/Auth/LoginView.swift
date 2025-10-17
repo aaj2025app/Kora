@@ -12,7 +12,7 @@ struct LoginView: View {
 
     var body: some View {
         VStack(spacing: 20) {
-            Text("Login to FitFlow")
+            Text("Login to Kora")
                 .font(.largeTitle.bold())
                 .foregroundColor(.fitGreen)
 

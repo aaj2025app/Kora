@@ -21,7 +21,7 @@ struct DashboardView: View {
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color.fitBackground)
-            .navigationTitle("FitFlow")
+            .navigationTitle("Kora")
         }
     }
 }

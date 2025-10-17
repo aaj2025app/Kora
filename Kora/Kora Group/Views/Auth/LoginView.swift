@@ -8,11 +8,26 @@
 import SwiftUI
 
 struct LoginView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+    @AppStorage("isLoggedIn") private var isLoggedIn = false
 
-#Preview {
-    LoginView()
+    var body: some View {
+        VStack(spacing: 20) {
+            Text("Login to FitFlow")
+                .font(.largeTitle.bold())
+                .foregroundColor(.fitGreen)
+
+            Button("Continue") {
+                isLoggedIn = true
+            }
+            .font(.headline)
+            .foregroundColor(.white)
+            .padding()
+            .frame(maxWidth: .infinity)
+            .background(Color.fitGreen)
+            .cornerRadius(10)
+            .padding(.horizontal, 40)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.fitBackground)
+    }
 }

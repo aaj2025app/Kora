@@ -8,11 +8,31 @@
 import SwiftUI
 
 struct OnboardingView: View {
+    @AppStorage("hasCompletedOnboarding") private var hasCompletedOnboarding = false
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 20) {
+            Text("Welcome to FitFlow")
+                .font(.largeTitle.bold())
+                .foregroundColor(.fitGreen)
+
+            Text("Your fitness journey starts here.")
+                .multilineTextAlignment(.center)
+                .foregroundColor(.gray)
+
+            Button("Get Started") {
+                hasCompletedOnboarding = true
+            }
+            .font(.headline)
+            .foregroundColor(.white)
+            .padding()
+            .frame(maxWidth: .infinity)
+            .background(Color.fitGreen)
+            .cornerRadius(10)
+            .padding(.horizontal, 40)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.fitBackground)
     }
 }
 
-#Preview {
-    OnboardingView()
-}

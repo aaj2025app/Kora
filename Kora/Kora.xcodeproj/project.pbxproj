@@ -8,15 +8,15 @@
 
 /* Begin PBXFileReference section */
 		1711E8CB2EA1DD8900512477 /* Kora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF83CAB2EA209BB0017FA73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF83CAE2EA209CD0017FA73 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		FAF83CB12EA209CD0017FA73 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FAF83CB32EA209CD0017FA73 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		FAF83CB52EA209CD0017FA73 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		FAF83CB72EA209CD0017FA73 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		FAF83CBC2EA209E10017FA73 /* KoraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoraApp.swift; sourceTree = "<group>"; };
+		FAF83CBD2EA209F70017FA73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		1711E8CD2EA1DD8900512477 /* Kora */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Kora;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1711E8C82EA1DD8900512477 /* Frameworks */ = {
@@ -32,7 +32,7 @@
 		1711E8C22EA1DD8900512477 = {
 			isa = PBXGroup;
 			children = (
-				1711E8CD2EA1DD8900512477 /* Kora */,
+				FAF83CAA2EA209A20017FA73 /* Kora */,
 				1711E8CC2EA1DD8900512477 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +43,109 @@
 				1711E8CB2EA1DD8900512477 /* Kora.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF83CAA2EA209A20017FA73 /* Kora */ = {
+			isa = PBXGroup;
+			children = (
+				FAF83CBD2EA209F70017FA73 /* ContentView.swift */,
+				FAF83CBC2EA209E10017FA73 /* KoraApp.swift */,
+				FAF83CBB2EA209CD0017FA73 /* Kora Group */,
+				FAF83CAB2EA209BB0017FA73 /* Assets.xcassets */,
+			);
+			path = Kora;
+			sourceTree = "<group>";
+		};
+		FAF83CAC2EA209CD0017FA73 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FAF83CAD2EA209CD0017FA73 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FAF83CAF2EA209CD0017FA73 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FAF83CAE2EA209CD0017FA73 /* Colors.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FAF83CB02EA209CD0017FA73 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FAF83CB22EA209CD0017FA73 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				FAF83CB12EA209CD0017FA73 /* LoginView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		FAF83CB42EA209CD0017FA73 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				FAF83CB32EA209CD0017FA73 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		FAF83CB62EA209CD0017FA73 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FAF83CB52EA209CD0017FA73 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		FAF83CB82EA209CD0017FA73 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FAF83CB72EA209CD0017FA73 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FAF83CB92EA209CD0017FA73 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FAF83CBA2EA209CD0017FA73 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAF83CB22EA209CD0017FA73 /* Auth */,
+				FAF83CB42EA209CD0017FA73 /* Dashboard */,
+				FAF83CB62EA209CD0017FA73 /* Onboarding */,
+				FAF83CB82EA209CD0017FA73 /* Profile */,
+				FAF83CB92EA209CD0017FA73 /* Shared */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAF83CBB2EA209CD0017FA73 /* Kora Group */ = {
+			isa = PBXGroup;
+			children = (
+				FAF83CAC2EA209CD0017FA73 /* Models */,
+				FAF83CAD2EA209CD0017FA73 /* Services */,
+				FAF83CAF2EA209CD0017FA73 /* Utilities */,
+				FAF83CB02EA209CD0017FA73 /* ViewModels */,
+				FAF83CBA2EA209CD0017FA73 /* Views */,
+			);
+			path = "Kora Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +162,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				1711E8CD2EA1DD8900512477 /* Kora */,
 			);
 			name = Kora;
 			packageProductDependencies = (
@@ -248,7 +348,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2G6MXP82B4;
+				DEVELOPMENT_TEAM = 729SVRMGN6;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -274,13 +374,14 @@
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = 1;
 				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Debug;
@@ -292,7 +393,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2G6MXP82B4;
+				DEVELOPMENT_TEAM = 729SVRMGN6;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -318,13 +419,14 @@
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = 1;
 				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Release;
