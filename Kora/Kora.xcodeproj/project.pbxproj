@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		1711E8AE2EA1D53500512477 /* Kora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1711E8CB2EA1DD8900512477 /* Kora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1711E8B02EA1D53500512477 /* Kora */ = {
+		1711E8CD2EA1DD8900512477 /* Kora */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Kora;
 			sourceTree = "<group>";
@@ -19,7 +19,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1711E8AB2EA1D53500512477 /* Frameworks */ = {
+		1711E8C82EA1DD8900512477 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1711E8A52EA1D53400512477 = {
+		1711E8C22EA1DD8900512477 = {
 			isa = PBXGroup;
 			children = (
-				1711E8B02EA1D53500512477 /* Kora */,
-				1711E8AF2EA1D53500512477 /* Products */,
+				1711E8CD2EA1DD8900512477 /* Kora */,
+				1711E8CC2EA1DD8900512477 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1711E8AF2EA1D53500512477 /* Products */ = {
+		1711E8CC2EA1DD8900512477 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1711E8AE2EA1D53500512477 /* Kora.app */,
+				1711E8CB2EA1DD8900512477 /* Kora.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1711E8AD2EA1D53500512477 /* Kora */ = {
+		1711E8CA2EA1DD8900512477 /* Kora */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1711E8B92EA1D53700512477 /* Build configuration list for PBXNativeTarget "Kora" */;
+			buildConfigurationList = 1711E8D62EA1DD8B00512477 /* Build configuration list for PBXNativeTarget "Kora" */;
 			buildPhases = (
-				1711E8AA2EA1D53500512477 /* Sources */,
-				1711E8AB2EA1D53500512477 /* Frameworks */,
-				1711E8AC2EA1D53500512477 /* Resources */,
+				1711E8C72EA1DD8900512477 /* Sources */,
+				1711E8C82EA1DD8900512477 /* Frameworks */,
+				1711E8C92EA1DD8900512477 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				1711E8B02EA1D53500512477 /* Kora */,
+				1711E8CD2EA1DD8900512477 /* Kora */,
 			);
 			name = Kora;
 			packageProductDependencies = (
 			);
 			productName = Kora;
-			productReference = 1711E8AE2EA1D53500512477 /* Kora.app */;
+			productReference = 1711E8CB2EA1DD8900512477 /* Kora.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1711E8A62EA1D53500512477 /* Project object */ = {
+		1711E8C32EA1DD8900512477 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					1711E8AD2EA1D53500512477 = {
+					1711E8CA2EA1DD8900512477 = {
 						CreatedOnToolsVersion = 26.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 1711E8A92EA1D53500512477 /* Build configuration list for PBXProject "Kora" */;
+			buildConfigurationList = 1711E8C62EA1DD8900512477 /* Build configuration list for PBXProject "Kora" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 1711E8A52EA1D53400512477;
+			mainGroup = 1711E8C22EA1DD8900512477;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 1711E8AF2EA1D53500512477 /* Products */;
+			productRefGroup = 1711E8CC2EA1DD8900512477 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1711E8AD2EA1D53500512477 /* Kora */,
+				1711E8CA2EA1DD8900512477 /* Kora */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1711E8AC2EA1D53500512477 /* Resources */ = {
+		1711E8C92EA1DD8900512477 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1711E8AA2EA1D53500512477 /* Sources */ = {
+		1711E8C72EA1DD8900512477 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1711E8B72EA1D53700512477 /* Debug */ = {
+		1711E8D42EA1DD8B00512477 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		1711E8B82EA1D53700512477 /* Release */ = {
+		1711E8D52EA1DD8B00512477 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +241,7 @@
 			};
 			name = Release;
 		};
-		1711E8BA2EA1D53700512477 /* Debug */ = {
+		1711E8D72EA1DD8B00512477 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -285,7 +285,7 @@
 			};
 			name = Debug;
 		};
-		1711E8BB2EA1D53700512477 /* Release */ = {
+		1711E8D82EA1DD8B00512477 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -332,25 +332,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1711E8A92EA1D53500512477 /* Build configuration list for PBXProject "Kora" */ = {
+		1711E8C62EA1DD8900512477 /* Build configuration list for PBXProject "Kora" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1711E8B72EA1D53700512477 /* Debug */,
-				1711E8B82EA1D53700512477 /* Release */,
+				1711E8D42EA1DD8B00512477 /* Debug */,
+				1711E8D52EA1DD8B00512477 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1711E8B92EA1D53700512477 /* Build configuration list for PBXNativeTarget "Kora" */ = {
+		1711E8D62EA1DD8B00512477 /* Build configuration list for PBXNativeTarget "Kora" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1711E8BA2EA1D53700512477 /* Debug */,
-				1711E8BB2EA1D53700512477 /* Release */,
+				1711E8D72EA1DD8B00512477 /* Debug */,
+				1711E8D82EA1DD8B00512477 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1711E8A62EA1D53500512477 /* Project object */;
+	rootObject = 1711E8C32EA1DD8900512477 /* Project object */;
 }
